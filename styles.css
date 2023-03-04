@@ -42,25 +42,31 @@ nav ul li a {
   color: white;
 }
 /* ------------------------------------- */
-.container {
-  width: 1000px;
-  margin: 0 auto;
-}
 
 .movie {
   background-color: #f2f2f7;
   width: 100%;
+  height: 360px;
+}
+.youtube {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding: 15px;
+  }
+
+/* ------------------------------------- */
+.container-text {
+  width: 100%;
+  height: 360px;
+  background-color: ;
 }
 
-.youtube {
-  margin: auto;
-  width: 50%;
-  padding: 10px;
-}
 .text {
+  padding: 70px 100px;
   background-color: white;
-  padding-top: 10px;
-  padding-bottom: 15px;
+  text-align: center;
 }
 .text h2 {
   text-align: center;
@@ -69,42 +75,59 @@ nav ul li a {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
 }
+.text p {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  }
 /* ------------------------------------- */
-.articole {
+.articles {
   width: 100%;
-  background-color: #F2F2F7;;
+  background-color: #f2f2f7;
   padding: 30px 0px;
   display: inline-block;
+  vertical-align: left;
 }
 
-article {
-    width: 25%;
-    background-color: #F2F2F7;
-    text-align: center;
-    
-  }
-
-.imgart {
-    background-color: powderblue;
-}
-.imgart img{
-    width: 100%;
-    height:100%;
+.articles article {
+  width: 23%;
+  background-color: red;
 }
 
-figure{
-    float: right;
+.imgart img {
+  width: 100%;
+  height: 100%;
+}
 
+.articles article h3 {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 0px;
+  font-weight: 600px;
+}
+
+.articles article p {
+  text-align: center;
+  padding: 0px 15px 15px 15px;
+  font-size: 16px;
+  text-indent: 15px;
 }
 
 /* ------------------------------------- */
 
 footer {
-  background-color: #e7eff8;
+  line-height: 360px;
+  height: 360px;
+  border: 2.5px solid black;
   text-align: center;
+ 
+  background-color: #e7eff8;
   text-transform: uppercase;
   text-decoration: underline;
-  padding: 5px 5px;
   font-size: 8px;
   color: black;
+
+  
 }
